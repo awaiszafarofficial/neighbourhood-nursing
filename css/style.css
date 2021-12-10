@@ -1,0 +1,442 @@
+@media only screen and (max-width: 600px) {
+  .hero h1{
+      font-size: 36px;
+      line-height: 48px;
+    }
+    .bg-overlay {
+        height: 500px !important;
+    }
+    .old img {
+        max-width: 100%;
+    }
+    .services {
+        text-align: center;
+        padding: 0px;
+        width: 100% ;
+    }
+    .service {
+        width: 100% !important;
+    }
+    .s-p p {
+        max-width: 100% !important;
+    }
+    .s-p2 p {
+        padding: 0px !important;
+    }
+    .connect-text {
+        text-align: center;
+        padding-top: 40px;
+        max-width: 100% !important;
+    }
+    .text-center h1 {
+        font-size: 36px;
+      line-height: 48px !important;
+    }
+    .test {
+        flex-direction: column-reverse; 
+    }
+    .test-txt2 {
+        padding: 40px 0px 40px 50px !important;
+    }
+    .test-txt2 h3 {
+        font-size: 22px;
+    }
+    .test2 h3 {
+        padding-top: 50px;
+        text-align: center;
+        max-width: 100% !important;
+    }
+    .test2 {
+        text-align: center;
+    }
+    .contact-form h2 {
+        text-align: center;
+        max-width: 100% !important;
+    }
+    .contact-form p {
+        text-align: center;
+    }
+    .footer-area {
+        text-align: center;
+    }
+    .footer-area p {
+        max-width: 100% !important;
+    }
+    .footer-logo {
+        padding-bottom: 40px;
+    }
+  }
+
+html, body {
+    font-family: 'Poppins';
+    font-size: 18px;
+    line-height: 27px;
+    box-sizing: border-box;
+    margin: 0;
+    overflow-x: hidden;
+    top: 0;
+    left: 0;
+}
+
+a {
+    color: #572091 !important;
+    text-decoration: none;
+    font-weight: 500px !important;
+}
+
+ul {
+    list-style-type: none;
+}
+h1 {
+    color: #572091;
+    font-size: 48px;
+    line-height: 59.76px;
+    font-weight: 600;
+}
+h2 {
+    color: #572091;
+    font-size: 36px;
+    line-height: 54px;
+    font-weight: 600;
+}
+h3 {
+    color: #000000;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+}
+h4 {
+    color: #572091;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 600;
+}
+h5 {
+    color: #000000;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+.nav-btn .btn-outline-success {
+    margin-left: 77px;
+    font-size: 12px;
+    line-height: 21px;
+    font-weight: 500;
+    color: #572091;
+    border-color: #572091;
+    border-radius: 0px;
+}
+.nav-btn .btn-outline-success:hover {
+    background-color: transparent;
+}
+.nav-link {
+    font-size: 14px;
+    font-weight: 500;
+    padding-right: 0px !important;
+    padding-left: 33px !important;
+}
+.navbar {
+padding: 30px 0px;
+background-color: #FDF8F4;
+}
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center
+}
+.hero hr {
+    width: 190px;
+    height: 7px !important;
+    border-radius: 46px;
+    color:#1CC9D1;
+    opacity: 1;
+}
+
+.hero h6 {
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+padding: 35px 55px 35px 0px;
+}
+.bg-overlay {
+    background: linear-gradient(to left, rgba(253, 248, 244, 0), rgba(253, 248, 244, 1)), url('HomeCareElderly2 1.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #FDF8F4;
+    height: 688px;
+    padding-top: 50px;
+}
+.hero .btn-light {
+    color: #ffffff;
+    background-color: #FC38AD;
+    font-size: 14px;
+    line-height: 21px;
+    border-radius: 0px;
+    padding: 14px 34px 14px 37px;
+}
+
+.booking{
+    margin: auto;
+    padding: 126px 0px;
+}
+.contact{
+    background-color: #572091;
+    height: fit-content;
+    padding: 85px 62px;
+}
+
+.contact h3 {
+   color: white; 
+   margin-bottom: 13px;
+}
+
+.contact p {
+    color: white;
+    width: 74%;
+}
+
+.contact a {
+    color: #1CC9D1 !important;
+}
+
+.services {
+    margin: auto;
+    padding: 53px 0px;
+}
+.service {
+    padding-bottom: 86px;
+    width: 85%;
+}
+.service a {
+color: #1CC9D1 !important;
+font-weight: 600;
+}
+
+.s1 h4 {
+    color:#FC38AD;
+    ;
+}
+
+.s2 h4 {
+    color: #1CC9D1;
+}
+
+.s5 h4 {
+    color:#FC38AD;
+    ;
+}
+
+.s6 h4 {
+    color: #1CC9D1;
+}
+.s-p p {
+    font-size: 14px;
+    max-width: 60%;
+    
+}
+.s-p2 p {
+    padding-bottom: 92px;
+}
+
+.s-p h4 {
+    padding-top: 26px;
+}
+
+.call-us{
+    background-color: #1CC9D1;
+    padding: 16px 26px 18px 26px;
+}
+
+.call-us h4 {
+    color: white;
+    font-weight: 500;
+}
+
+.call-us .btn-light {
+    color: #ffffff;
+    background-color: #572091;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    border-radius: 0px;
+    padding: 14px 27px 14px 29px;
+    border-color: transparent;
+}
+
+.connect {
+    padding: 234px 0px;
+}
+
+.connect-bg {
+    background-color: #572091;
+    padding-top: 34px;
+    position: relative;
+}
+.connect-text {
+    color: white;
+    max-width: 51%;
+}
+
+.connect-text h2 {
+    color: white;
+}
+.connect-text p {
+    padding-bottom: 23px;
+}
+
+.connect-text .btn-light {
+    color: #ffffff;
+    background-color: #1CC9D1;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    border-radius: 0px;
+    padding: 12px 31px 12px 31px;
+    border-color: transparent;
+}
+
+.connect-bg::after {
+    content: url(certified.png);
+    position: absolute;
+    right: -50px;
+    top: -85px;
+}
+.text-center h1 {
+    padding: 110px 55px 0px 55px ;
+    color: #1CC9D1;
+    line-height: 72px;
+}
+.test {
+    padding-bottom: 264px;
+}
+
+.test-txt {
+    background-color: #1CC9D1;
+    
+}
+.test-txt h3 {
+    color: white;
+    padding: 71px 38px
+}
+
+.test-txt2 {
+    background-color: #FDF8F4 ;
+    padding: 160px 160px 61px 95px ;
+    position: relative;
+}
+.test-txt2 h3 {
+    font-weight: 500;
+    margin-bottom: 0px;
+    max-width: 75%;
+    
+}
+.test-txt2 p {
+    margin-bottom: 80px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+.test-txt2 a {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.test-txt2::before {
+    content: url(comma.png);
+    position: absolute;
+    left:-20px;
+    top: 20px;
+}
+
+.test2 {
+    padding-bottom: 248px;
+}
+
+.test2 h3 {
+    max-width: 63%;
+}
+.test2 a {
+    color: #FC38AD !important;
+    font-weight: 600;
+}
+
+.contact-form {
+    background-color: #FDF8F4;
+}
+
+.contact-form p {
+    color: #1CC9D1;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: italic;
+}
+.contact-form h2 {
+    max-width: 47%;
+}
+
+.form2 {
+    padding-top: 85px;
+    max-width: 80%;
+    
+}
+
+.form2 .btn-primary {
+    color: #ffffff;
+    background-color: #572091;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    border-radius: 0px;
+    padding: 16px 37px 15px 37px;
+    border-color: transparent;
+    margin: 27px 0px 51px 0px;
+}
+
+.form2 label {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 18px 0px 8px 0px;
+}
+.form2 .form-control {
+    border: 1px solid #572091;
+    border-radius: 0px;
+}
+#InputMessage {
+    min-height: 134px;
+}
+
+.footer-area {
+    padding: 120px 0px;
+}
+
+.footer-area a {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 40px;
+    color: black !important;
+}
+
+.footer-area p {
+    font-size: 12px;
+    line-height: 18px;
+    color: rgba(0,0,0, .5);
+    max-width: 65%;
+}
+
+.emailform {
+    position: relative;
+}
+.form-btn {
+    position: absolute;
+    right: 0px;
+    z-index: 9;
+}
+.form-btn .btn-sm {
+    font-weight: 600;
+    font-size: 12px;
+    color: #572091;
+    line-height: 18px;
+}
